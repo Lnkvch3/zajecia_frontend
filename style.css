@@ -1,0 +1,81 @@
+.html{
+    color: white;
+    background: red;
+    text-align: center;
+    width: max-content;
+    padding: 8px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.burger-upper-bun{
+    width: 24rem;
+    height: 6rem;
+    background-color: #deb787;
+    border-radius: 4rem 4rem 1rem 1rem;
+    border-bottom: 1rem solid #d1a15f;
+}
+.cheese{
+    width: 22rem;
+    height: 1rem;
+    background-color: #ffd700;
+    border-bottom: 0.4rem solid #D3A15F;
+}
+.tomato{
+    width: 20rem;
+    height: 1rem;
+    background-color: red;
+    border-bottom: 0.4rem solid darkred;
+}
+.meat{
+    width: 23rem;
+    height: 2rem;
+    background-color: #A52A2A ;
+    border-radius: 4rem 4rem 4rem 4rem;
+    border-bottom: 1rem solid #993300;
+}
+.cebula{
+    width: 18rem;
+    height: 2rem;
+    background-color: #800080;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.onion-ring{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: pink;
+}
+.mielone{
+    display: flex;
+}
+.mielony{
+    background-color: #A52A2A;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+
+}
+.ogorek{
+    background: #90ee90;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0rem 0rem 4rem 4rem;
+    border-bottom: 1rem solid #008000;
+}
+
+.dol-bulka{
+    width: 24rem;
+    height: 6rem;
+    background-color: #deb787;
+    border-radius: 1rem 1rem 4rem 4rem;
+    border-top: 1rem solid #d1a15f
+}
