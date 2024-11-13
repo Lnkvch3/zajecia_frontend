@@ -1,9 +1,105 @@
-.naglowek{
-    color:darkorange;
-    margin: 1rem;
+*{
+    box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: auto;
+    align-items: auto;
+    height: 100vh;
+    margin:0;
+    padding: 20px;
+}
+
 .container{
-    color:darkorange;
-    margin:0.4rem;
-    width: 20rem;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    color: #ff6600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border:1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+textarea{
+    resize: vertical;
+    height: 100px;;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button{
+    flex:1;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color: #FF6600;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="reset"]{
+    background-color: #ddd;
+    color: #333;
+}
+button:hover {
+    opacity: 0.9;
+}
+p{
+    color: #FF6600;
+    font-weight: bold;
+    margin-top: 10px;
+}
+@media(max-width: 600px){
+    .buttons{
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button[type="submit"]{
+        margin-bottom: 0;
+    }
 }
